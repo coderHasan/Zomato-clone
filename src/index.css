@@ -1,0 +1,47 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Prompt', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 0.02rem;
+}
+
+img{
+  width: 100%;
+}
+
+.font{
+  font-family: 'Playfair Display', serif;
+}
+
+.font2{
+  font-family: 'Prompt', sans-serif;
+}
+
+.active-text .active-name{
+  color:#f27e7e;
+}
+
+.border1{
+  border:1px solid #fff;
+}
+
+.border1:hover{
+  border-color: #ddd;
+}

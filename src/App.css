@@ -1,0 +1,19 @@
+
+.container{
+  max-width: 1170px;
+}
+
+@media(min-width:768px){
+  .container{
+    width: 95%;
+  }
+}
+@media(min-width:420px){
+  .container{
+    width: 95%;
+  }
+}
+
+.shadow1{
+  box-shadow: rgba(28 28 28/8%) 0px 2px 8px;
+}
